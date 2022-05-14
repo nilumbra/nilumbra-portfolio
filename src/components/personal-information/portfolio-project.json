@@ -44,6 +44,9 @@
     },
     "type": {
       "type": "string"
+    },
+    "show_demo_only": {
+      "type": "boolean"
     }
   }
 }
