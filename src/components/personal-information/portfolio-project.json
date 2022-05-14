@@ -41,6 +41,9 @@
       "type": "component",
       "repeatable": true,
       "component": "utility.demo-image"
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
