@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_personal_information_works",
+  "info": {
+    "displayName": "Work",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "organization": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.from-to"
+    },
+    "job_position": {
+      "type": "string"
+    },
+    "responsible_of": {
+      "type": "json"
+    }
+  }
+}

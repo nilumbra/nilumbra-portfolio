@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "singularName": "about-me",
+    "pluralName": "about-mes",
+    "displayName": "about_me"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "career_summary": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "affiliation": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "max_hour": {
+      "type": "integer"
+    },
+    "work_visa": {
+      "type": "boolean"
+    },
+    "aspiration": {
+      "type": "text"
+    },
+    "profile_pic": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

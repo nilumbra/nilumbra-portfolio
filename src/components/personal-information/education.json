@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_personal_information_educations",
+  "info": {
+    "displayName": "education",
+    "icon": "user-graduate"
+  },
+  "options": {},
+  "attributes": {
+    "Specialization": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "utility.from-to"
+    },
+    "institution": {
+      "type": "string"
+    },
+    "field_of_interest": {
+      "type": "text"
+    }
+  }
+}

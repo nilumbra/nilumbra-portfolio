@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_utility_skills",
+  "info": {
+    "displayName": "Skill",
+    "icon": "hammer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skill": {
+      "type": "string"
+    }
+  }
+}

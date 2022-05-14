@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_utility_from_tos",
+  "info": {
+    "displayName": "from_to",
+    "icon": "grip-lines"
+  },
+  "options": {},
+  "attributes": {
+    "from": {
+      "type": "date"
+    },
+    "to": {
+      "type": "date"
+    }
+  }
+}

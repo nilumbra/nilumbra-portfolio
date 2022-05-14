@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_personal_information_portfolio_projects",
+  "info": {
+    "displayName": "PortfolioProject",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "project_name": {
+      "type": "string"
+    },
+    "likes": {
+      "type": "biginteger"
+    },
+    "views": {
+      "type": "biginteger"
+    },
+    "finished_at": {
+      "type": "date"
+    },
+    "about": {
+      "type": "text"
+    },
+    "demo_link": {
+      "type": "string"
+    },
+    "code_link": {
+      "type": "string"
+    },
+    "skills": {
+      "displayName": "Skill",
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.skill"
+    },
+    "detail_link": {
+      "type": "string"
+    },
+    "demo_images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.demo-image"
+    }
+  }
+}
