@@ -1,6 +1,31 @@
-module.exports = [
+
+module.exports = ({ env }) => ([
   'strapi::errors',
-  'strapi::security',
+  {
+    name: 'strapi::security',
+    config: {
+      contentSecurityPolicy: {
+        useDefaults: true,
+        directives: {
+          'connect-src': ["'self'", 'https:'],
+          'img-src': [
+            "'self'", 
+            'data:', 
+            'blob:', 
+            'strapi.io',
+            `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`
+          ],
+          'media-src': [
+            "'self'", 
+            'data:', 
+            'blob:',
+            'strapi.io',
+            `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`
+          ],
+        },
+      }
+    },
+  },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
@@ -9,4 +34,4 @@ module.exports = [
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
-];
+]);
