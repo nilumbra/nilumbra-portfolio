@@ -1,4 +1,3 @@
-
 module.exports = ({ env }) => ([
   'strapi::errors',
   {
@@ -12,14 +11,14 @@ module.exports = ({ env }) => ([
             "'self'", 
             'data:', 
             'blob:', 
-            'strapi.io',
+            'strapi-nilumbra-portfolio.herokuapp.com',
             `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`
           ],
           'media-src': [
             "'self'", 
             'data:', 
             'blob:',
-            'strapi.io',
+            'strapi-nilumbra-portfolio.herokuapp.com',
             `${env('AWS_BUCKET')}.s3.${env('AWS_REGION')}.amazonaws.com`
           ],
         },
