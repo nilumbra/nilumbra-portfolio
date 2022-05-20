@@ -47,6 +47,9 @@
     },
     "show_demo_only": {
       "type": "boolean"
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
